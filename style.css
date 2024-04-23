@@ -94,6 +94,10 @@
 .sign-in{
   display: flex;
 }
+.nav-singin:hover{
+  cursor: pointer;
+  border: 1px solid #dddddd;
+}
 /**Box4**/
 .span{
   font-size: 0.7rem;
@@ -111,6 +115,10 @@
 .nav-cart{
   font-size: 1rem;
   font-weight: 700;
+}
+.nav-cart:hover{
+  border: 1px solid #dddddd;
+  cursor: pointer;
 }
 /** panel**/
 
@@ -131,10 +139,22 @@
     font-size:0.85rem;
 
   }
+  .panel-ops:hover{
+    cursor: pointer;
+    color: rgb(194, 205, 205);
+    
+  }
+  .panel-all:hover{
+    cursor: pointer;
+    color: rgb(240, 175, 175);
+  }
   .panel-deals{
     font-size:0.9rem;
     font-weight: 700;
-
+  }
+  .panel-deals:hover{
+    cursor: pointer;
+    color: rgb(229, 13, 13);
   }
 /**hero**/
 .hero-section{
@@ -175,6 +195,11 @@
   padding: 20px 0px 15px;
   margin-top:15px ;
 
+}
+.box:hover{
+  cursor: pointer;
+  border:2px solid rgb(245, 240, 240);  box-shadow: 0 0 10px #333;  -webkit-box-shadow: 0 0 10px #333;  -moz-box-shadow: 0 0 10px #333;  -o-box-shadow: 0 0 10px #333;  -ms-box-shadow: 0 0 10px #333;
+  transition: 1s;
 }
 .box-img{
   height: 300px;
